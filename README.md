@@ -1,1 +1,3 @@
-# Expense-Tracker
+Import datetime
+# Create a list
+expense = {}
