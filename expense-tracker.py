@@ -8,7 +8,7 @@ total_expenses = []
 def add_expense():
     amount = input("Enter the amount of your expense:\n")
     date_str = input("Enter the reminder date (YYYY-MM-DD):\n")
-    category = input("Where did you spend this money on:\n")
+    category = input("Where did you spend this money on:\n").lower()
     try:
         amount = float(amount)
         date = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
